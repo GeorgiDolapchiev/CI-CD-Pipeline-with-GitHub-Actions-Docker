@@ -44,9 +44,7 @@ jobs:
         with:
           context: .
           push: true
-          tags:
-            - ${{ env.IMAGE }}:${{ env.TAG }}
-            - ${{ env.IMAGE }}:latest
+          tags: ${{ env.IMAGE }}:${{ env.TAG }},${{ env.IMAGE }}:latest
 
       # Setup SSH key for deployment
       - name: Setup SSH key for deploy
