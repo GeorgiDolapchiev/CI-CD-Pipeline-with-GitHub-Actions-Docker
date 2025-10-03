@@ -3,9 +3,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello from CI/CD demo running on Ubuntu VM!"
+    return "🚀 CI/CD Pipeline with GitHub Actions & Docker 01"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
 
-# testing the ci/cd project
+
