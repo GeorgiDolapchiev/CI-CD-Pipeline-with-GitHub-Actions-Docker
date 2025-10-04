@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "🚀 CI/CD Pipeline with GitHub Actions & Docker 01 & testing live demo"
+    return "🚀 CI/CD Pipeline with GitHub Actions & Docker 01 testingg......"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
